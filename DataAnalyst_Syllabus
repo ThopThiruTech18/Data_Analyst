@@ -1,0 +1,242 @@
+MODULE 1: Introduction to Data Analytics
+Topics
+What is Data Analytics?
+Role of Data Analyst
+Types of Analytics
+Descriptive Analytics
+Diagnostic Analytics
+Predictive Analytics
+Prescriptive Analytics
+Data Analytics Lifecycle
+Real-Time Business Use Cases
+MODULE 2: Advanced Excel
+Excel Basics
+Rows, Columns, Cells
+Formatting
+Data Validation
+Formulas
+SUM
+AVERAGE
+COUNT
+IF
+COUNTIF
+SUMIF
+CONCAT
+TEXT Functions
+Lookup Functions
+VLOOKUP
+HLOOKUP
+XLOOKUP
+INDEX MATCH
+Data Analysis
+Sorting
+Filtering
+Conditional Formatting
+Remove Duplicates
+Reporting
+Pivot Tables
+Pivot Charts
+Dashboards
+Projects
+Employee Dashboard
+Sales Analysis Dashboard
+MODULE 3: SQL FOR DATA ANALYSIS
+Database Fundamentals
+Database Concepts
+Tables
+Primary Key
+Foreign Key
+SQL Basics
+SELECT
+WHERE
+ORDER BY
+DISTINCT
+LIMIT
+Aggregate Functions
+COUNT()
+SUM()
+AVG()
+MIN()
+MAX()
+Grouping
+GROUP BY
+HAVING
+Joins
+INNER JOIN
+LEFT JOIN
+RIGHT JOIN
+FULL JOIN
+SELF JOIN
+Advanced SQL
+Subqueries
+CTE
+Views
+Stored Procedures
+Window Functions
+Window Functions
+ROW_NUMBER()
+RANK()
+DENSE_RANK()
+LEAD()
+LAG()
+Projects
+E-Commerce Analysis
+Banking Analysis
+Employee Database Analysis
+MODULE 4: STATISTICS FOR DATA ANALYST
+Basics
+Mean
+Median
+Mode
+Probability
+Probability Basics
+Conditional Probability
+Distributions
+Normal Distribution
+Binomial Distribution
+Statistical Concepts
+Variance
+Standard Deviation
+Correlation
+Covariance
+Hypothesis Testing
+Null Hypothesis
+P Value
+T Test
+Z Test
+Real-Time Applications
+Customer Behavior Analysis
+Product Performance Analysis
+MODULE 5: PYTHON FOR DATA ANALYSIS
+Python Basics
+Variables
+Data Types
+Operators
+Loops
+Functions
+Collections
+File Handling
+CSV
+Excel
+JSON
+Exception Handling
+OOP Concepts
+Class
+Object
+Inheritance
+Polymorphism
+MODULE 6: PYTHON LIBRARIES
+NumPy
+Arrays
+Mathematical Operations
+Pandas
+DataFrames
+Filtering
+Grouping
+Merging
+Data Cleaning
+Matplotlib
+Line Chart
+Bar Chart
+Pie Chart
+Histogram
+Seaborn
+Heatmaps
+Correlation Charts
+Projects
+IPL Data Analysis
+Netflix Data Analysis
+COVID Data Analysis
+MODULE 7: POWER BI
+Power BI Basics
+Installation
+Data Import
+Data Transformation
+Power Query
+Data Modeling
+Relationships
+DAX
+SUM()
+CALCULATE()
+COUNT()
+AVERAGE()
+Visualization
+Bar Charts
+Pie Charts
+KPI Cards
+Maps
+Slicers
+Dashboards
+Interactive Dashboard Creation
+Projects
+Sales Dashboard
+HR Dashboard
+Finance Dashboard
+MODULE 8: TABLEAU (Optional)
+Topics
+Tableau Interface
+Data Sources
+Charts
+Dashboards
+Storytelling
+MODULE 9: DATA CLEANING
+Topics
+Missing Values
+Duplicate Records
+Outlier Detection
+Data Transformation
+Data Standardization
+MODULE 10: BUSINESS ANALYTICS
+KPIs
+Revenue
+Profit
+Customer Retention
+Churn Rate
+Business Case Studies
+Banking
+Healthcare
+Retail
+Telecom
+MODULE 11: GIT & GITHUB
+Topics
+Repository
+Commit
+Push
+Pull
+Branching
+Project Uploading
+MODULE 12: REAL-TIME PROJECTS
+Beginner Projects
+Student Performance Analysis
+Employee Performance Analysis
+Sales Dashboard
+Intermediate Projects
+IPL Data Analysis
+Netflix Data Analysis
+Customer Churn Analysis
+Advanced Projects
+E-Commerce Analytics
+Banking Analytics
+Fraud Detection Analysis
+Healthcare Analytics
+MODULE 13: INTERVIEW PREPARATION
+SQL Interview Questions
+Top 100 SQL Questions
+Excel Interview Questions
+Top 50 Questions
+Power BI Interview Questions
+Top 100 Questions
+Python Interview Questions
+Top 100 Questions
+Case Studies
+Real-Time Business Scenarios
+Learning Order (Recommended)
+
+1️⃣ Excel
+2️⃣ SQL
+3️⃣ Statistics
+4️⃣ Python Basics
+5️⃣ Pandas + NumPy
+6️⃣ Power BI
+7️⃣ Projects
+8️⃣ Interview Preparation
