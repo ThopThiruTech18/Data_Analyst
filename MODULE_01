@@ -1,0 +1,417 @@
+MODULE 1: Introduction to Data Analytics
+
+This module helps beginners understand what Data Analytics is, why it is important, and how companies use data to make business decisions.
+
+1. What is Data Analytics?
+Definition
+
+Data Analytics is the process of collecting, cleaning, organizing, analyzing, and interpreting data to discover useful information and support decision-making.
+
+Simple Definition
+
+Data Analytics means converting raw data into meaningful insights.
+
+Real-Life Example
+
+Suppose you own a supermarket.
+
+Every day customers buy products like:
+
+Milk
+Bread
+Rice
+Biscuits
+Soft Drinks
+
+After one month, you analyze the sales.
+
+You discover:
+
+Milk sells most in the morning.
+Soft drinks sell more during summer.
+Biscuits sell more on weekends.
+
+Now you can:
+
+Stock more milk every morning.
+Increase soft drink inventory in summer.
+Offer weekend biscuit discounts.
+
+This is Data Analytics.
+
+Data Analytics Process
+Raw Data
+      ↓
+Collect Data
+      ↓
+Clean Data
+      ↓
+Analyze Data
+      ↓
+Find Patterns
+      ↓
+Business Decisions
+Where is Data Analytics Used?
+Banking
+Healthcare
+Education
+E-Commerce
+Airlines
+Finance
+Insurance
+Manufacturing
+Social Media
+Government
+2. Role of Data Analyst
+
+A Data Analyst collects data, cleans it, analyzes it, creates reports, and helps businesses make better decisions.
+
+Responsibilities
+1. Collect Data
+
+Example:
+
+Sales records
+
+Customer information
+
+Website traffic
+
+2. Clean Data
+
+Remove:
+
+Duplicate records
+Missing values
+Incorrect entries
+
+Example
+
+Before
+
+Name      Age
+
+Ram       25
+Ram       25
+NULL      30
+
+After
+
+Ram       25
+3. Analyze Data
+
+Find answers like:
+
+Which product sells the most?
+Which city generates the highest sales?
+Which month has the lowest revenue?
+4. Create Dashboards
+
+Use tools like:
+
+Excel
+Power BI
+Tableau
+
+Example Dashboard
+
+Sales
+
+January   ₹2,00,000
+
+February  ₹2,50,000
+
+March     ₹3,10,000
+5. Present Insights
+
+Explain findings to managers using charts, graphs, and reports.
+
+Skills Required
+Excel
+SQL
+Python
+Statistics
+Power BI
+Tableau
+Communication
+Problem Solving
+3. Types of Analytics
+
+There are four main types of analytics.
+
+1. Descriptive
+2. Diagnostic
+3. Predictive
+4. Prescriptive
+
+Think of them as four questions:
+
+Analytics	Question
+Descriptive	What happened?
+Diagnostic	Why did it happen?
+Predictive	What will happen?
+Prescriptive	What should we do?
+4. Descriptive Analytics
+Definition
+
+Descriptive Analytics summarizes historical data to understand what happened.
+
+It answers:
+
+What happened?
+
+Example
+
+A company checks last month's sales.
+
+January Sales
+
+TV      200
+
+Mobile  500
+
+Laptop  150
+
+Observation:
+
+Mobile phones sold the most.
+
+Tools
+Excel
+SQL
+Power BI
+Tableau
+Business Example
+
+A hospital reports:
+
+Total Patients = 2,000
+Surgeries = 350
+Admissions = 1,500
+
+This is descriptive reporting.
+
+5. Diagnostic Analytics
+Definition
+
+Diagnostic Analytics identifies the reasons behind an event.
+
+It answers:
+
+Why did it happen?
+
+Example
+
+Sales dropped in June.
+
+After analysis:
+
+Competitor offered discounts.
+Product price increased.
+Stock was unavailable.
+
+Now the company knows the reason.
+
+Business Example
+
+A restaurant notices fewer customers.
+
+Reasons found:
+
+Food quality declined.
+Delivery was slow.
+Prices increased.
+6. Predictive Analytics
+Definition
+
+Predictive Analytics forecasts future outcomes using historical data and statistical or machine learning models.
+
+It answers:
+
+What is likely to happen?
+
+Example
+
+Based on the last five years' sales:
+
+Year   Sales
+
+2021   ₹20L
+
+2022   ₹24L
+
+2023   ₹30L
+
+2024   ₹36L
+
+2025   ₹42L
+
+Prediction:
+
+Sales next year may reach around ₹48L.
+
+Business Example
+
+Netflix predicts which movies you might enjoy based on your viewing history.
+
+Amazon predicts products you may purchase next.
+
+Banks predict whether a customer is likely to repay a loan.
+
+7. Prescriptive Analytics
+Definition
+
+Prescriptive Analytics recommends the best course of action based on predictions.
+
+It answers:
+
+What should we do?
+
+Example
+
+Prediction:
+
+Ice cream demand will increase next month.
+
+Recommendation:
+
+Increase production.
+Order more raw materials.
+Hire additional staff.
+Business Example
+
+A food delivery company predicts heavy rain and recommends:
+
+Increase delivery staff.
+Prepare additional orders.
+Offer rain-time promotions.
+Comparison of Analytics Types
+Analytics Type	Question Answered	Example
+Descriptive	What happened?	Last month sales were ₹10 lakh
+Diagnostic	Why did it happen?	Sales dropped due to high prices
+Predictive	What will happen?	Sales may increase next month
+Prescriptive	What should we do?	Launch a discount campaign
+8. Data Analytics Lifecycle
+
+The Data Analytics Lifecycle describes the complete journey from business problem to actionable insights.
+
+Business Problem
+        ↓
+Collect Data
+        ↓
+Clean Data
+        ↓
+Transform Data
+        ↓
+Analyze Data
+        ↓
+Visualize Data
+        ↓
+Make Decisions
+        ↓
+Monitor Results
+Step 1: Define Business Problem
+
+Example:
+
+"Why are sales decreasing?"
+
+Step 2: Collect Data
+
+Sources include:
+
+Databases
+Excel files
+APIs
+Websites
+Customer surveys
+Step 3: Clean Data
+
+Tasks include:
+
+Removing duplicates
+Filling missing values
+Correcting errors
+Step 4: Transform Data
+
+Prepare data by:
+
+Creating new columns
+Changing formats
+Grouping categories
+Step 5: Analyze Data
+
+Use SQL, Excel, Python, or BI tools to identify trends and insights.
+
+Step 6: Visualize Data
+
+Present findings using:
+
+Charts
+Graphs
+Dashboards
+Step 7: Decision Making
+
+Managers use insights to improve business performance.
+
+Step 8: Monitor Results
+
+Track outcomes after implementing decisions and refine strategies as needed.
+
+9. Real-Time Business Use Cases
+1. Amazon
+
+Uses analytics to:
+
+Recommend products
+Predict demand
+Optimize inventory
+2. Netflix
+
+Uses analytics to:
+
+Recommend movies
+Personalize content
+Improve user engagement
+3. Flipkart
+
+Uses analytics to:
+
+Track customer behavior
+Suggest products
+Plan promotional campaigns
+4. Banks
+
+Uses analytics to:
+
+Detect fraud
+Assess loan eligibility
+Analyze customer spending
+5. Hospitals
+
+Uses analytics to:
+
+Predict patient admissions
+Optimize staff scheduling
+Improve patient care
+6. Airlines
+
+Uses analytics to:
+
+Forecast ticket demand
+Optimize flight schedules
+Adjust ticket pricing
+7. Schools and Colleges
+
+Uses analytics to:
+
+Monitor student performance
+Track attendance
+Identify students needing additional support
+8. Telecom Companies
+
+Uses analytics to:
+
+Predict customer churn
+Improve network performance
+Recommend suitable plans
