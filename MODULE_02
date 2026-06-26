@@ -1,0 +1,647 @@
+MODULE 2: Advanced Excel
+1. Excel Basics
+What is Excel?
+
+Microsoft Excel is a spreadsheet application used to store, organize, analyze, and visualize data.
+
+Uses
+Data Entry
+Calculations
+Reports
+Charts
+Dashboards
+Business Analysis
+2. Rows, Columns, Cells
+Row
+Horizontal line
+Numbered (1,2,3...)
+
+Example
+
+Name	Age
+Thiru	25
+
+Here Row 2 contains:
+
+Thiru
+25
+Column
+
+Vertical line
+
+Named:
+
+A
+B
+C
+D
+
+Example
+
+Column A = Name
+
+Column B = Age
+
+Cell
+
+Intersection of Row and Column
+
+Example
+
+A1
+
+B5
+
+C10
+
+Cell Address = Column + Row
+
+Example
+
+A5
+
+3. Formatting
+
+Formatting makes data attractive and readable.
+
+Topics
+
+Font
+Font Size
+Bold
+Italic
+Underline
+Borders
+Fill Color
+Text Color
+Alignment
+Number Format
+Currency
+Date Format
+
+Example
+
+Before
+
+5000
+
+After Formatting
+
+₹5,000.00
+
+4. Data Validation
+
+Used to restrict user input.
+
+Example
+
+Only allow
+
+Male
+
+Female
+
+Other
+
+Drop-down List
+
+Department
+
+IT
+
+HR
+
+Testing
+
+Support
+
+5. Formulas
+
+Every formula starts with
+
+=
+
+Example
+
+=A1+B1
+
+=A1*B1
+
+=A1/B1
+
+=A1-B1
+
+6. SUM()
+
+Adds numbers.
+
+Syntax
+
+=SUM(A1:A10)
+
+Example
+
+10
+
+20
+
+30
+
+Output
+
+60
+
+Practice
+
+Employee Salaries
+
+Student Marks
+
+Monthly Expenses
+
+7. AVERAGE()
+
+Finds average.
+
+Syntax
+
+=AVERAGE(A1:A5)
+
+Example
+
+80
+
+90
+
+70
+
+60
+
+Output
+
+75
+
+8. COUNT()
+
+Counts numerical cells.
+
+Syntax
+
+=COUNT(A1:A10)
+
+Example
+
+10
+
+20
+
+Hello
+
+30
+
+Output
+
+3
+
+9. IF()
+
+Checks a condition.
+
+Syntax
+
+=IF(A2>=35,"Pass","Fail")
+
+Example
+
+Marks = 80
+
+Output
+
+Pass
+
+10. COUNTIF()
+
+Counts cells based on a condition.
+
+Syntax
+
+=COUNTIF(A1:A20,"IT")
+
+Example
+
+IT
+
+HR
+
+IT
+
+Testing
+
+Output
+
+2
+
+11. SUMIF()
+
+Adds values based on condition.
+
+Syntax
+
+=SUMIF(A:A,"IT",B:B)
+
+Example
+
+Department
+
+IT 20000
+
+HR 15000
+
+IT 25000
+
+Output
+
+45000
+
+12. CONCAT()
+
+Joins text.
+
+Syntax
+
+=CONCAT(A2," ",B2)
+
+Example
+
+First Name
+
+Thiru
+
+Last Name
+
+Tech
+
+Output
+
+Thiru Tech
+
+13. TEXT Functions
+
+Used for manipulating text.
+
+LEFT()
+=LEFT(A2,3)
+
+Thirumalesh
+
+Output
+
+Thi
+
+RIGHT()
+=RIGHT(A2,4)
+
+Output
+
+lesh
+
+MID()
+=MID(A2,3,5)
+LEN()
+
+Returns length.
+
+=LEN(A2)
+UPPER()
+=UPPER(A2)
+LOWER()
+=LOWER(A2)
+PROPER()
+=PROPER(A2)
+TRIM()
+
+Removes extra spaces.
+
+=TRIM(A2)
+14. Lookup Functions
+
+Used to search data.
+
+15. VLOOKUP()
+
+Vertical lookup.
+
+Syntax
+
+=VLOOKUP(A2,Table,2,FALSE)
+
+Example
+
+ID
+
+101
+
+Returns
+
+Employee Name
+
+16. HLOOKUP()
+
+Horizontal lookup.
+
+Searches horizontally.
+
+Syntax
+
+=HLOOKUP(A2,Table,2,FALSE)
+17. XLOOKUP()
+
+Modern lookup.
+
+Syntax
+
+=XLOOKUP(A2,A2:A20,B2:B20)
+
+Advantages
+
+Easy
+Faster
+Left lookup
+Right lookup
+No column number required
+18. INDEX + MATCH
+
+Alternative to VLOOKUP.
+
+Syntax
+
+=INDEX(B2:B20,MATCH(A2,A2:A20,0))
+
+Advantages
+
+Flexible
+Faster
+Dynamic
+19. Data Analysis
+
+Excel is used for
+
+Sales Analysis
+HR Reports
+Student Reports
+Financial Reports
+Customer Reports
+20. Sorting
+
+Arrange data.
+
+Ascending
+
+A → Z
+
+Small → Large
+
+Descending
+
+Z → A
+
+Large → Small
+
+Example
+
+Salary
+
+10000
+
+5000
+
+20000
+
+Ascending
+
+5000
+
+10000
+
+20000
+
+21. Filtering
+
+Shows only required data.
+
+Example
+
+Department
+
+IT
+
+HR
+
+Testing
+
+Filter
+
+Only IT
+
+22. Conditional Formatting
+
+Highlights important values automatically.
+
+Examples
+
+Marks <35
+
+Red
+
+Salary >50000
+
+Green
+
+Duplicate Values
+
+Yellow
+
+Top 10 Values
+
+Blue
+
+23. Remove Duplicates
+
+Removes repeated records.
+
+Example
+
+101
+
+102
+
+101
+
+103
+
+After Remove Duplicates
+
+101
+
+102
+
+103
+
+24. Reporting
+
+Create reports using
+
+Tables
+Charts
+Pivot Tables
+Slicers
+Dashboards
+
+Reports include
+
+Employee Report
+Sales Report
+Attendance Report
+Inventory Report
+25. Pivot Tables
+
+Used for summarizing data.
+
+Example
+
+Department
+
+Salary
+
+IT
+
+25000
+
+IT
+
+30000
+
+HR
+
+20000
+
+Pivot Output
+
+Department	Total Salary
+IT	55000
+HR	20000
+26. Pivot Charts
+
+Creates charts directly from Pivot Tables.
+
+Types
+
+Column Chart
+Pie Chart
+Line Chart
+Bar Chart
+Area Chart
+
+Benefits
+
+Dynamic
+Interactive
+Auto Update
+27. Dashboards
+
+A dashboard is a visual report showing KPIs and business insights.
+
+Dashboard Components
+
+Charts
+KPIs
+Cards
+Slicers
+Timelines
+Pivot Tables
+
+Business Example
+
+Total Sales
+Total Profit
+Best Employee
+Top Product
+Monthly Revenue
+28. Project: Employee Dashboard
+Dataset
+Employee ID
+Name
+Department
+Designation
+Salary
+Experience
+Joining Date
+Performance Rating
+Dashboard Features
+Total Employees
+Department-wise Employees
+Average Salary
+Highest Salary
+Lowest Salary
+Employee Performance
+Salary Distribution
+Experience Analysis
+Interactive Filters
+Skills Covered
+Excel Tables
+Data Validation
+IF
+COUNTIF
+SUMIF
+VLOOKUP/XLOOKUP
+Pivot Tables
+Pivot Charts
+Conditional Formatting
+Dashboard Design
+29. Project: Sales Analysis Dashboard
+Dataset
+Order ID
+Customer Name
+Product
+Category
+Quantity
+Price
+Sales
+Profit
+State
+Salesperson
+Order Date
+Dashboard Features
+Total Sales
+Total Profit
+Monthly Sales Trend
+Top 10 Products
+Category-wise Sales
+State-wise Sales
+Best Salesperson
+Profit Margin
+Customer Analysis
+Interactive Slicers
+Skills Covered
+SUMIFS
+COUNTIFS
+Lookup Functions
+Sorting
+Filtering
+Pivot Tables
+Pivot Charts
+Conditional Formatting
+Dashboard Creation
+Learning Outcomes
+
+By the end of this module, students will be able to:
+
+Understand Excel worksheets and data organization.
+Apply professional formatting techniques.
+Use formulas and functions effectively.
+Validate and clean data.
+Perform lookups using VLOOKUP, HLOOKUP, XLOOKUP, and INDEX-MATCH.
+Analyze data using sorting, filtering, and conditional formatting.
+Create Pivot Tables and Pivot Charts.
+Design interactive dashboards.
+Build real-world Employee and Sales Analysis Dashboard projects.
